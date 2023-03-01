@@ -24,17 +24,22 @@ public class ProductRestController {
     }
 
     @PostMapping("/products")
-    public ProductEntity createProduct(ProductEntity newProduct) {
+    public ProductEntity createProduct(@RequestBody ProductEntity newProduct) {
         return repo.save(newProduct);
     }
 
     @PutMapping("/products")
-    public ProductEntity updateProduct(ProductEntity newProduct) {
+    public ProductEntity updateProduct(@RequestBody ProductEntity newProduct) {
         return repo.save(newProduct);
     }
 
     @DeleteMapping("/products/{id}")
     public void deleteProductById(@PathVariable("id") int id) {
         repo.deleteById(id);
+    }
+
+    @PatchMapping("/products")
+    public ProductEntity patchProduct(@RequestBody ProductEntity newProduct) {
+        return repo.save(newProduct);
     }
 }
