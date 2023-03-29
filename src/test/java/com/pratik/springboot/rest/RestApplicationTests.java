@@ -39,6 +39,7 @@ class RestApplicationTests {
 	@Test
 	void testPut() {
 		RestTemplate template = new RestTemplate();
+		// template.exchange is a generic method where we can specified the http request type
 		ProductEntity entity = template.getForObject("http://localhost:8080/pratik/products/4", ProductEntity.class);
 
 		System.out.println(entity);
