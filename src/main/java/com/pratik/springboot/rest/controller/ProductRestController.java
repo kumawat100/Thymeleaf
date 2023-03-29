@@ -7,13 +7,16 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+
 @RestController
 public class ProductRestController {
 
     @Autowired
     ProductRepo repo;
     
-    private static final Logger LOGGER = LoggerFactory.
+    private static final Logger LOGGER = LoggerFactory.getLogger(ProductRestController.class);
     @GetMapping("/products")
     //@RequestMapping(value="/products", method=RequestMethod.GET)
     public List<ProductEntity> getProducts() {
@@ -22,6 +25,7 @@ public class ProductRestController {
 
     @GetMapping("/products/{id}")
     public ProductEntity getProductById(@PathVariable("id") int id) {
+        LOGGER.info("Finding product by ID" + id);
         return repo.findById(id).get();
     }
 
