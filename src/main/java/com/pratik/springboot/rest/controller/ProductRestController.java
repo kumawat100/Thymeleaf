@@ -12,6 +12,8 @@ public class ProductRestController {
 
     @Autowired
     ProductRepo repo;
+    
+    private static final Logger LOGGER = LoggerFactory.
     @GetMapping("/products")
     //@RequestMapping(value="/products", method=RequestMethod.GET)
     public List<ProductEntity> getProducts() {
