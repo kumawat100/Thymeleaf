@@ -355,3 +355,96 @@ java.util.NoSuchElementException: No value present
 2023-03-30 12:49:51.521  INFO 28436 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 2023-03-30 12:49:51.528  INFO 28436 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2023-03-30 12:49:51.531  INFO 28436 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-30 14:52:46.796  INFO 11728 --- [main] c.p.springboot.rest.RestApplication      : Starting RestApplication using Java 11.0.3 on LTIN324482 with PID 11728 (C:\Users\674785\Downloads\SBProfile\RestSecurity\target\classes started by 674785 in C:\Users\674785\Downloads\SBProfile\RestSecurity)
+2023-03-30 14:52:46.802 DEBUG 11728 --- [main] c.p.springboot.rest.RestApplication      : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-30 14:52:46.804  INFO 11728 --- [main] c.p.springboot.rest.RestApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30 14:52:49.609  INFO 11728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 14:52:49.610  INFO 11728 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-30 14:52:49.780  INFO 11728 --- [main] o.a.c.c.C.[.[localhost].[/pratik]        : Initializing Spring embedded WebApplicationContext
+2023-03-30 14:52:50.300  INFO 11728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-30 14:52:50.666  INFO 11728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-30 14:52:50.742  INFO 11728 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 14:52:50.895  INFO 11728 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-30 14:52:51.166  INFO 11728 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-30 14:52:51.391  INFO 11728 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 14:52:52.331  INFO 11728 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 14:52:53.957  INFO 11728 --- [main] c.p.springboot.rest.RestApplication      : Started RestApplication in 7.878 seconds (JVM running for 8.931)
+2023-03-30 14:53:09.946  INFO 11728 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/pratik]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30 14:53:10.341  WARN 11728 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [273] milliseconds.
+2023-03-30 14:54:45.310  INFO 11728 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-03-30 14:54:45.326  INFO 11728 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-30 14:54:45.342  INFO 11728 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-30 14:55:41.407  INFO 26752 --- [main] c.p.springboot.rest.RestApplication      : Starting RestApplication using Java 11.0.3 on LTIN324482 with PID 26752 (C:\Users\674785\Downloads\SBProfile\RestSecurity\target\classes started by 674785 in C:\Users\674785\Downloads\SBProfile\RestSecurity)
+2023-03-30 14:55:41.415 DEBUG 26752 --- [main] c.p.springboot.rest.RestApplication      : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-30 14:55:41.417  INFO 26752 --- [main] c.p.springboot.rest.RestApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30 14:55:44.273  INFO 26752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 14:55:44.274  INFO 26752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-30 14:55:44.465  INFO 26752 --- [main] o.a.c.c.C.[.[localhost].[/pratik]        : Initializing Spring embedded WebApplicationContext
+2023-03-30 14:55:44.949  INFO 26752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-30 14:55:45.375  INFO 26752 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-30 14:55:45.450  INFO 26752 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 14:55:45.549  INFO 26752 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-30 14:55:45.838  INFO 26752 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-30 14:55:46.081  INFO 26752 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 14:55:47.026  INFO 26752 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 14:55:48.713  INFO 26752 --- [main] c.p.springboot.rest.RestApplication      : Started RestApplication in 7.996 seconds (JVM running for 8.604)
+2023-03-30 14:56:07.741  INFO 26752 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/pratik]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30 14:56:08.061  WARN 26752 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [260] milliseconds.
+2023-03-30 15:06:37.406  INFO 26752 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-03-30 15:06:37.423  INFO 26752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-30 15:06:37.432  INFO 26752 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-30 15:06:47.588  INFO 13004 --- [main] c.p.springboot.rest.RestApplication      : Starting RestApplication using Java 11.0.3 on LTIN324482 with PID 13004 (C:\Users\674785\Downloads\SBProfile\RestSecurity\target\classes started by 674785 in C:\Users\674785\Downloads\SBProfile\RestSecurity)
+2023-03-30 15:06:47.593 DEBUG 13004 --- [main] c.p.springboot.rest.RestApplication      : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-30 15:06:47.594  INFO 13004 --- [main] c.p.springboot.rest.RestApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30 15:06:50.267  INFO 13004 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 15:06:50.267  INFO 13004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-30 15:06:50.427  INFO 13004 --- [main] o.a.c.c.C.[.[localhost].[/pratik]        : Initializing Spring embedded WebApplicationContext
+2023-03-30 15:06:50.927  INFO 13004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-30 15:06:51.279  INFO 13004 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-30 15:06:51.354  INFO 13004 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 15:06:51.433  INFO 13004 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-30 15:06:51.693  INFO 13004 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-30 15:06:51.918  INFO 13004 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 15:06:52.921  INFO 13004 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 15:06:54.382  INFO 13004 --- [main] c.p.springboot.rest.RestApplication      : Started RestApplication in 7.454 seconds (JVM running for 8.183)
+2023-03-30 15:08:23.492  INFO 13004 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-03-30 15:08:23.505  INFO 13004 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-30 15:08:23.511  INFO 13004 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-30 15:09:53.209  INFO 26516 --- [main] c.p.springboot.rest.RestApplication      : Starting RestApplication v0.0.1-SNAPSHOT using Java 11.0.3 on LTIN324482 with PID 26516 (C:\Users\674785\Downloads\SBProfile\RestSecurity\target\rest-0.0.1-SNAPSHOT.jar started by 674785 in C:\Users\674785\Downloads\SBProfile\RestSecurity)
+2023-03-30 15:09:53.215 DEBUG 26516 --- [main] c.p.springboot.rest.RestApplication      : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-30 15:09:53.216  INFO 26516 --- [main] c.p.springboot.rest.RestApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30 15:09:55.943  INFO 26516 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 15:09:55.944  INFO 26516 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-30 15:09:56.033  INFO 26516 --- [main] o.a.c.c.C.[.[localhost].[/pratik]        : Initializing Spring embedded WebApplicationContext
+2023-03-30 15:09:56.480  INFO 26516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-30 15:09:56.898  INFO 26516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-30 15:09:56.983  INFO 26516 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 15:09:57.066  INFO 26516 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-30 15:09:57.378  INFO 26516 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-30 15:09:57.588  INFO 26516 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 15:09:58.411  INFO 26516 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 15:10:00.116  INFO 26516 --- [main] c.p.springboot.rest.RestApplication      : Started RestApplication in 7.716 seconds (JVM running for 8.523)
+2023-03-30 15:10:08.384  INFO 26516 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/pratik]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30 15:10:08.663  WARN 26516 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [221] milliseconds.
+2023-03-30 15:12:20.567  INFO 26516 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-03-30 15:12:20.582  INFO 26516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-30 15:12:20.590  INFO 26516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-30 15:12:43.573  INFO 25096 --- [main] c.p.springboot.rest.RestApplication      : Starting RestApplication using Java 11.0.3 on LTIN324482 with PID 25096 (C:\Users\674785\Downloads\SBProfile\RestSecurity\target\classes started by 674785 in C:\Users\674785\Downloads\SBProfile\RestSecurity)
+2023-03-30 15:12:43.579 DEBUG 25096 --- [main] c.p.springboot.rest.RestApplication      : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-30 15:12:43.581  INFO 25096 --- [main] c.p.springboot.rest.RestApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-03-30 15:12:46.319  INFO 25096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-30 15:12:46.319  INFO 25096 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-30 15:12:46.505  INFO 25096 --- [main] o.a.c.c.C.[.[localhost].[/pratik]        : Initializing Spring embedded WebApplicationContext
+2023-03-30 15:12:46.978  INFO 25096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-30 15:12:47.378  INFO 25096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-30 15:12:47.460  INFO 25096 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-30 15:12:47.551  INFO 25096 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-03-30 15:12:47.835  INFO 25096 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-30 15:12:48.060  INFO 25096 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-03-30 15:12:49.057  INFO 25096 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-30 15:12:50.596  INFO 25096 --- [main] c.p.springboot.rest.RestApplication      : Started RestApplication in 7.751 seconds (JVM running for 8.402)
+2023-03-30 15:13:03.944  INFO 25096 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/pratik]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-30 15:13:04.292  WARN 25096 --- [http-nio-8080-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [234] milliseconds.
+2023-03-30 15:45:40.249  INFO 25096 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-03-30 15:45:40.260  INFO 25096 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-30 15:45:40.265  INFO 25096 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
